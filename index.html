@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1d101c"><meta name="description" content="A little birthday fairy tale, made with love for Reginna.">
+  <title>A little fairy tale for Reginna ♡</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E♡%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="magic.css?v=3">
+</head>
+<body>
+  <div class="memory-world" id="memory-world" aria-hidden="true"><img class="world-layer" id="world-a" alt=""><img class="world-layer" id="world-b" alt=""><div class="world-shade"></div></div>
+  <div class="magic-trail" id="magic-trail" aria-hidden="true"></div>
+  <div class="stardust" aria-hidden="true" id="stardust"></div>
+  <main>
+    <section class="gift-scene" id="gift" aria-label="A birthday gift for Reginna">
+      <div class="gift-wrap" role="img" aria-label="A rose-pink birthday gift wrapped with a satin bow">
+        <div class="gift-glow" aria-hidden="true"></div>
+        <div class="gift-assembly" aria-hidden="true">
+          <div class="gift-light"></div>
+          <div class="gift-part gift-base"></div>
+          <div class="gift-part gift-lid"></div>
+          <div class="gift-part gift-loose ribbon-left"></div>
+          <div class="gift-part gift-loose ribbon-right"></div>
+          <div class="gift-part gift-bow"></div>
+          <div class="gift-halo"></div>
+        </div>
+      </div>
+      <button class="open-button" id="open">Open <span aria-hidden="true">♡</span></button>
+      <span id="gift-status" class="sr-only" role="status"></span>
+    </section>
+    <div id="story" hidden>
+      <header class="story-top"><span class="dedication">for Reginna <span aria-hidden="true">♡</span></span><button class="sound" id="sound" aria-pressed="false" aria-label="Play music"><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="sound-label">Music off</span></button></header>
+      <div class="pages">
+        <section class="page portrait-page" id="page-0" aria-labelledby="title-0" hidden>
+          <div class="portrait-copy"><p class="overline">ONCE UPON A SEPTEMBER 28</p><h1 id="title-0" tabindex="-1">The world got<br><em>a little more magic.</em></h1><p class="birthday-script">Happy birthday, Reginna.</p><p class="soft-copy">Of all the worlds I could wander into,<br>my favorite will always be the one with you.</p><span class="small-love">My favorite person. My sweetest adventure.</span></div>
+          <figure class="portrait"><div class="portrait-frame"><img src="assets/reginna.jpeg" alt="Reginna in the afternoon sunlight"></div><figcaption>and there you were… <span aria-hidden="true">♡</span></figcaption><span class="portrait-spark one" aria-hidden="true">✧</span><span class="portrait-spark two" aria-hidden="true">✦</span></figure>
+        </section>
+        <section class="page memory-page" id="page-1" aria-labelledby="title-1" hidden>
+          <div class="chapter-heading"><p class="overline">LITTLE MOMENTS, FOREVER FEELINGS</p><h2 id="title-1" tabindex="-1">Our own <em>little universe.</em></h2></div>
+          <div class="memory-stage"><button class="memory-arrow" id="memory-prev" aria-label="Previous memory">‹</button><figure class="memory-card"><button id="enlarge" aria-label="Enlarge this memory"><img id="memory-image" src="assets/memory-0.png" alt=""></button><figcaption><span id="memory-caption"></span><small id="memory-date"></small></figcaption></figure><button class="memory-arrow" id="memory-next" aria-label="Next memory">›</button></div>
+          <div class="memory-bottom"><span id="memory-number" aria-live="polite"></span><div class="memory-dots" id="memory-dots" aria-label="Choose a memory"></div></div>
+          <span id="memory-status" class="sr-only" role="status"></span>
+          <p class="memory-note">Different places. The same feeling of home.</p>
+        </section>
+        <section class="page film-page" id="page-2" aria-labelledby="title-2" hidden>
+          <div class="chapter-heading"><p class="overline">PRESS PLAY. STAY A LITTLE.</p><h2 id="title-2" tabindex="-1">If I could <em>keep a moment…</em></h2><p>I'd keep all the ones with you.</p></div>
+          <div class="film-frame"><video id="movie" controls playsinline preload="metadata" poster="assets/memory-0.png" aria-label="Our 48-second memory film"><source src="assets/our-memories.mp4" type="video/mp4"></video></div>
+          <a class="download" href="assets/our-memories.mp4" download="Reginna-memories.mp4">Keep our little film <span aria-hidden="true">↓</span></a>
+        </section>
+        <section class="page letter-page" id="page-3" aria-labelledby="title-3" hidden>
+          <article class="letter-paper"><span class="letter-star" aria-hidden="true">✧</span><p class="overline">A FEW WORDS FROM MY HEART</p><h2 id="title-3" tabindex="-1">My dearest <em>Reginna,</em></h2><div class="letter-copy"><p>Somehow, a screen became a place where I could feel close to you. Every game, every laugh, every little moment together has become something I want to keep.</p><p>I wish I could be beside you today. Until that day comes, here is a tiny world made just for you — a place where the distance doesn't get the last word.</p><p>May this new year of your life be gentle, bright, and full of things that make your eyes light up. I hope you always feel how loved you are.</p><p>In every world, in every little adventure,<br>I'd choose you all over again.</p></div><p class="signature">With all my love <span aria-hidden="true">♡</span></p></article>
+        </section>
+        <section class="page wish-page" id="page-4" aria-labelledby="title-4" hidden>
+          <p class="overline">AND THIS IS ONLY THE BEGINNING</p><div class="wish-symbol" aria-hidden="true">♡</div><h2 id="title-4" tabindex="-1">Here's to you,<br><em>and all our tomorrows.</em></h2><p class="wish-copy">Close your eyes. Make a wish.<br>I'll be wishing for more moments with you.</p><button class="wish-button" id="wish">Make a birthday wish <span aria-hidden="true">✧</span></button><p id="wish-message" aria-live="polite"></p><div class="countdown-wrap"><p id="count-label">Counting down to your special day</p><div id="countdown"></div><span>SEPTEMBER 28, 2026</span></div><button class="replay" id="replay">Read our story again ↺</button>
+        </section>
+      </div>
+      <footer class="story-nav"><button id="back" class="back">← Back</button><div class="chapter-dots" id="chapter-dots" aria-label="Story chapters"></div><button id="next" class="next">Our little universe <span aria-hidden="true">→</span></button></footer>
+    </div>
+  </main>
+  <dialog id="lightbox" aria-label="Our memory"><button id="close" aria-label="Close enlarged memory">×</button><img alt=""><p></p></dialog>
+  <audio id="music" src="assets/fairytale.mp3" preload="auto" loop></audio>
+  <script src="app.js"></script>
+</body></html>
